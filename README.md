@@ -1,6 +1,11 @@
-# stock_analyzer
+# stock analyzer
 
-stock_analyzer description
+Stock analyzer is a stocks monitoring app that uses open API's Alpha Vantage and IEX.
+Alpha Vantage requires a private key.
+This app is geared toward short-term swing trading.
+This is a hobby project, if you lose a bunch of money trading don't blame me.
+The developer accepts no liability from you using it.
+Also, the primary algorithm being developed wont be included in this repo.
 
 ## Quick Start
 
