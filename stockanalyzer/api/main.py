@@ -7,7 +7,7 @@ def main():
   url = "https://www.alphavantage.co/query"
 
   function = "TIME_SERIES_DAILY"
-  symbol = "MSFT"
+  symbol = "AAPL"
   api_key = os.environ['ALPHA_VANTAGE_KEY']
 
   data = { "function": function, 
