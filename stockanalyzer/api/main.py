@@ -15,4 +15,16 @@ def main():
                    "apikey": api_key } 
   page = requests.get(url, params = data)
   return page.json()
-  #pprint.pprint(page.json())
+
+def iex():
+  # https://api.iextrading.com/1.0/stock/aapl/batch?types=quote,news,chart&range=1m&last=10
+  url = 'https://api.iextrading.com/1.0'
+  ref_data = '/ref-data/symbols'
+  stats = '/stats/intraday'
+  stock = '/stock/aapl/batch' 
+  type = '?types=quote,news,chart&range=1m&last=10'
+  data = {'types': 'quote',
+          'range': '1m'}
+  url += stock
+  page = requests.get(url, params = data)
+  return page.json()
