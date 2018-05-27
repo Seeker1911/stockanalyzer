@@ -4,7 +4,7 @@ from stockanalyzer.api.iex_utils import get_params, get_stock
 from stockanalyzer.api.av_utils import get_av_time_series_daily
 
 
-def main():
+def av():
   symbol = "AAPL"
   data = get_av_time_series_daily(symbol)
   page = requests.get(av_url, params=data)
