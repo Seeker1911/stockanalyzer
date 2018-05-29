@@ -1,5 +1,10 @@
 'use strict';
 
+let timeseries = dataset['Time Series (Daily)'];
+for (var i in timeseries){
+  console.log(timeseries[i]); // gets values for date, need the keys !!
+    console.log(i + '<<< here is i'); // <<--- this is it
+}
 /* Add a basic data series with six labels and values */
 let data = {
   labels: ['1', '2', '3', '4', '5', '6'],
@@ -40,4 +45,4 @@ let responsiveOptions = [
 ];
 
 /* Initialize the chart with the above settings */
-new Chartist.Line('#my-chart', data, options, responsiveOptions);
+new Chartist.Line('#av-chart', data, options, responsiveOptions);
