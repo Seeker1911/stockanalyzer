@@ -2,14 +2,20 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <title>stock analyzer</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename="bower_components/chartist/dist/chartist.min.css") }}">
   </head>
   <body>
-{#  <div class="ct-chart ct-perfect-fourth" id="my-chart"></div>#}
+{#  <div class="ct-chart ct-perfect-fourth" id="av-chart"></div>#}
+{#    {{results}}#}
+  index
   </body>
   <script src="{{ url_for('static', filename="bower_components/chartist/dist/chartist.min.js") }}"></script>
-  <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+{#  <script>let dataset = {{ results|tojson }};</script>#}
+  <script src="{{ url_for('static', filename='js/av_dashboard.js') }}"></script>
 </html>
 
