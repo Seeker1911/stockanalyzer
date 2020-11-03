@@ -9,7 +9,7 @@ Flask==1.0.2
 future==0.16.0
 idna==2.6
 itsdangerous==0.24
-Jinja2==2.10
+Jinja2==2.10.1
 jinja2-time==0.2.0
 MarkupSafe==1.0
 poyo==0.4.1
@@ -27,7 +27,7 @@ click==6.7
 Flask==1.0.2
 idna==2.6
 itsdangerous==0.24
-Jinja2==2.10
+Jinja2==2.10.1
 MarkupSafe==1.0
 requests==2.20.0
 simplejson==3.15.0
@@ -39,7 +39,7 @@ click==6.7
 Flask==1.0.2
 idna==2.6
 itsdangerous==0.24
-Jinja2==2.10
+Jinja2==2.10.1
 MarkupSafe==1.0
 requests==2.20.0
 -e git+https://github.com/Seeker1911/stockanalyzer.git@3da02fb48c3c478f290a5cce51d3e875bde3d530#egg=stockanalyzer
